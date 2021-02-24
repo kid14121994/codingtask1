@@ -102,7 +102,7 @@ header {
 
 .header-logo {
     display: flex;
-    width: 80%;
+    width: 1141px;
     height: 100px;
     margin: 0 auto;
     justify-content: space-between;
@@ -131,6 +131,7 @@ header {
 
 .header-menu li {
     display: inline-block;
+    align-items: center;
 }
 
 .header-menu a {
@@ -141,16 +142,14 @@ header {
 
 .menu0 {
     padding-right: 43px;
+    margin-top: 28px;
 }
 
 .mail a {
     display: inline-block;
     width: 96px;
     height: 48px;
-    color: #fff5fe;
-    background-color: #48bac2;
-    padding-top: 25px;
-    text-align: center;
+    background-image: url(/coding2/images/mail.png);
 }
 
 .lorem-ipsum {
@@ -180,7 +179,9 @@ header {
 }
 
 .greeting {
-    background-color: #cccccc;
+    background-image: url(/coding2/images/gradation.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 100%;
     height: 500px;
 }
@@ -236,14 +237,8 @@ header {
 
 .one-menu a {
     display: inline-block;
-    background-color: #ff7385;
-    font-size: 18px;
-    font-family: noto sans cjk jp;
     width: 226px;
     height: 60px;
-    text-align: center;
-    color: #fff5fe;
-    padding-top: 30px;
     margin-left: 60px;
     margin-top: 13px;
 }
@@ -326,7 +321,9 @@ header {
 footer {
     width: 100%;
     height: 500px;
-    background-color: #8b8782;
+    background-image: url(/coding2/images/graduation2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .footer0 {
@@ -359,13 +356,6 @@ footer {
     display: inline-block;
     width: 226px;
     height: 60px;
-    text-align: center;
-    font-size: 18px;
-    font-family: noto sans cjk jp;
-    font-weight: bold;
-    padding-top: 36px;
-    color: #fff5fe;
-    background-color: #ff7385;
     margin-left: 110px;
     margin-top: 20px;
 }
